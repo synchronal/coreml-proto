@@ -1,6 +1,22 @@
-[package]
-name = "coreml-proto"
-version = "0.1.0"
-edition = "2024"
+[workspace]
+members = [
+  'codegen',
+  'coreml-proto',
+]
+resolver = "2"
 
-[dependencies]
+
+[workspace.dependencies]
+
+
+[workspace.package]
+authors = ["Eric Saxby <sax@reflective.dev>", "synchronal.dev"]
+description = "CoreML protobuf definitions and model introspection library"
+edition = "2024"
+homepage = "https://github.com/synchronal/coreml-proto"
+license = "MIT"
+readme = "./README.md"
+repository = "https://github.com/synchronal/coreml-proto"
+rust-version = "1.89"
+version = "0.1.0"
+

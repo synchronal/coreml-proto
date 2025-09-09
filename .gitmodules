@@ -1,0 +1,3 @@
+[submodule "coremltools"]
+	path = coremltools
+	url = https://github.com/apple/coremltools

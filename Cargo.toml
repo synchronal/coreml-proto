@@ -7,6 +7,10 @@ resolver = "2"
 
 
 [workspace.dependencies]
+codegen = { path = "./codegen" }
+prost = "0.14"
+prost-build = "0.14"
+prost-types = "0.14"
 
 
 [workspace.package]

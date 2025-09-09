@@ -24,5 +24,10 @@ prost-types = { workspace = true }
 codegen = { workspace = true }
 
 
+[[example]]
+name = "model_description"
+path = "examples/model_description.rs"
+
+
 [features]
 strict = [] # Treat warnings as a build error.

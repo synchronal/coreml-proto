@@ -15,7 +15,7 @@ prost-types = "0.14"
 
 [workspace.package]
 authors = ["Eric Saxby <sax@reflective.dev>", "synchronal.dev"]
-description = "CoreML protobuf definitions and model introspection library"
+description = "CoreML protobuf definitions and decoders"
 edition = "2024"
 homepage = "https://github.com/synchronal/coreml-proto"
 license = "MIT"
@@ -23,4 +23,3 @@ readme = "./README.md"
 repository = "https://github.com/synchronal/coreml-proto"
 rust-version = "1.89"
 version = "0.1.0"
-

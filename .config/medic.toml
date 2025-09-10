@@ -1,6 +1,6 @@
 [doctor]
 checks = [
-  {name = "git: submodules", shell = "test -d coremltools/mlmodel/format", remedy = "git submodule update"},
+  {name = "git: submodules", shell = "test -d coremltools/mlmodel/format", remedy = "git submodule update --init"},
   {check = "homebrew"},
   {check = "tool-versions", command = "plugin-installed", args = {plugin = "rust"}},
   {check = "tool-versions", command = "package-installed", args = {plugin = "rust"}},

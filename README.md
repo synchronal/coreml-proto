@@ -16,3 +16,8 @@ fn model_description(path: &Path) -> Result<Option<ModelDescription>> {
     Ok(model.description)
 }
 ```
+
+## Licensing
+
+This project uses protobuf definitions provided under
+[this license](https://github.com/apple/coremltools/blob/main/LICENSE.txt). Take a look!

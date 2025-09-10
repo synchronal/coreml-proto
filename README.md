@@ -17,6 +17,29 @@ fn model_description(path: &Path) -> Result<Option<ModelDescription>> {
 }
 ```
 
+## Development
+
+``` shell
+brew bundle
+medic doc
+medic update
+medic audit
+medic test
+medic shipit
+```
+
+…or more manually:
+
+``` shell
+git submodule update --init
+cargo build
+cargo test
+cargo check
+cargo clippy
+cargo fmt
+cargo audit
+```
+
 ## Licensing
 
 This project uses protobuf definitions provided under

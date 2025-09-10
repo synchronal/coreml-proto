@@ -48,6 +48,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
   // Tell cargo to rerun if proto files change
   println!("cargo:rerun-if-changed={}", proto_dir.display());
+  println!("cargo:rerun-if-changed={}", output_dir.display());
 
   Ok(())
 }
